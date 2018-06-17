@@ -1,0 +1,22 @@
+.table_results{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+
+  tr:nth-child(2){
+    td{
+      font-weight: bold;
+    }
+  }
+
+    td{
+        border: 1px solid black;
+        padding: 7px;
+
+    };
+  button{
+    margin: 7px;
+  }
+
+
+}

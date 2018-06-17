@@ -5,13 +5,14 @@ const TableHeader = () => {
     return (
         <tr>
             <td colSpan={7}>
-                <button>button1</button>
-                <button>button2</button>
+                <button>upload</button>
+                <button>clear</button>
             </td>
-            <td>
-                <button>button3</button>
+            <td colSpan={4}>
+                <button>get results</button>
             </td>
         </tr>
 
     )
-}
+};
+export default TableHeader;

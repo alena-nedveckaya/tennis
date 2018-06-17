@@ -20,9 +20,11 @@ module.exports = {
                 use: { loader: "babel-loader" }
             },
             {
-                test: /\.css$/,
+                test: /\.scss$/,
                 use: extractCSS.extract({
-                    use: ["css-loader"]
+                    use: ["css-loader",
+                        "sass-loader",
+                        ]
                 })
             }
         ]
